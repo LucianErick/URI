@@ -4,7 +4,7 @@ def clearText(text):
     for word in words:
         if (not word.isalpha()):
             for i in range(len(word)):
-                if (not word[i].isalpha):
+                if (not word[i].isalpha()):
                     word.replace(word[i], '')
     return words
 
